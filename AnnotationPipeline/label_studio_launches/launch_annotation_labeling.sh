@@ -59,6 +59,10 @@ python3 $SCRIPTDIR/../create_labeling_tasks/create_folders_for_annotation_export
 	--export-folder $folder_for_annotation_results --n-annotators $n_annotators \
 	--annotator-prefix $annotator_prefix
 
+cp -rf "${root_folder_for_annotator_jsons_on_host}/annotator_0" "${root_folder_for_annotator_jsons_on_host}/demo"
+mkdir "${folder_for_annotation_results}/demo"
+
+
 docker run -d -p $host_port:$target_port -v $images_folder_on_host:$data_folder_on_container/$basename_of_images_folder_on_host -v $server_folder_on_host:$data_folder_on_container -v $root_folder_for_annotator_jsons_on_host:/label-studio/$basename_of_root_folder_for_annotator_jsons_on_host -v $folder_for_annotation_results:$folder_on_container_for_annotation_results --env LOCAL_FILES_SERVING_ENABLED=true --env LOCAL_FILES_DOCUMENT_ROOT=/ --name $container_name heartexlabs/label-studio:latest label-studio
 
 echo 'docker done'
