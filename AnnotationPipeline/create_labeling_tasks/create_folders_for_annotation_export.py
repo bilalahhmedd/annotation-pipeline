@@ -1,7 +1,14 @@
 import argparse
 import os
 def create_folders_for_annotation_export(export_folder, n_annotators,annotator_prefix,purge=True):
-	
+	""" creates folders a per number of annotator using annotator prefixes to serve data to label-studio app
+
+	Args:
+		export_folder (_str_): _folder path where data will be exported_
+		n_annotators (_int_): _number of folder to create for each annotator_
+		annotator_prefix (_str_): _string to be added to name of annotator project_
+		purge (bool, optional): _description_. Defaults to True.
+	"""
 	if purge:
 		os.system(f"rm -rf {export_folder}")
 	os.makedirs(export_folder)
