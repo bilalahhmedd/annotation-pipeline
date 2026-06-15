@@ -59,6 +59,16 @@ def get_available_fnames(
     text_file_with_fnames = None,
     image_extensions = []
 ):
+    """ get file names for given folder
+
+    Args:
+        images_folder (_string_, optional): _path to image folder_. Defaults to None.
+        text_file_with_fnames (_type_, optional): _description_. Defaults to None.
+        image_extensions (list, optional): _list of images extensions_. Defaults to [].
+
+    Returns:
+        _type_: _description_
+    """
     if images_folder is not None:
         excluded_fnames = []
         im_fnames = [] 
@@ -90,6 +100,17 @@ def get_available_fnames(
 def divide_images_with_repetition(im_fnames,
     n_annotators,n_repetition=1,
     image_extensions =  ['.jpg','.jpeg','.png','.gif','.bmp']):
+    """ divide images as per number of annotators and n number of copies of each image
+
+    Args:
+        im_fnames (_list_): _description_
+        n_annotators (_any_): _description_
+        n_repetition (int, optional): _description_. Defaults to 1.
+        image_extensions (list, optional): _description_. Defaults to ['.jpg','.jpeg','.png','.gif','.bmp'].
+
+    Returns:
+        _type_: image folders created
+    """
     assert n_repetition <= n_annotators, 'number of image repetition should be <= n_annotators'
     excluded_fnames = []
     assigned_im_fnames = [[] for _ in range(n_annotators)]
@@ -102,6 +123,15 @@ def divide_images_with_repetition(im_fnames,
 
 def divide_images(im_fnames,
     n_annotators):
+    """ divide images are per number of annotators
+
+    Args:
+        im_fnames (_any_): image file names
+        n_annotators (_int_): number of annotators
+
+    Returns:
+        _type_: _description_
+    """
     n_images = len(im_fnames)
     images_per_annotator = int(np.ceil(n_images/n_annotators))
     order = np.arange(n_images)
@@ -129,6 +159,18 @@ def dump_divided_images_as_jsons(root_folder,annotator_prefix,assigned_im_fnames
     container_document_root,container_images_folder,
     purge=True,
     counters_for_annotators = defaultdict(int)):
+    """ dumps divided images as json files inside annotator folder. where each json contains path to image and annotation meta data
+
+    Args:
+        root_folder (_str_): _folder path where annotator folders to be created_
+        annotator_prefix (_type_): _name prefix to be added each folder name_
+        assigned_im_fnames (_type_): _list of file names_
+        container_document_root (_type_): _docker container root folder path_
+        container_images_folder (_type_): _label studion container images folder path_
+        purge (bool, optional): _description_. Defaults to True.
+        counters_for_annotators (_type_, optional): number of annotators.
+    """
+
     if purge:
         purge_folder(root_folder)
     #------------------------------
