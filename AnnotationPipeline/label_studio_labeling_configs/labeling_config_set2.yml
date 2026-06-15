@@ -1,0 +1,546 @@
+title: Men Shoes Set2 Annotation
+type: custom
+group: Computer Vision
+image: /static/templates/image-classification.png
+details: <h1>Men Shoes Attributes</h1>
+config: '<View>
+    <Header value="Men Shoes Attributes Set 2"/>
+    #**********************Department**************************
+    <View style="display: flex;"> 
+        <View style="flex: 70%">
+          <Image name="image" value="$data" zoom="true" zoomControl="true" rotateControl="true"/>
+        </View>
+        <View style="flex: 30%">
+            <Header name="heading-department" value="Department [Single-Option]"/>
+            <Choices name="department" toName="image" showInLine="true" required="true" choice="single-radio">
+              
+            <Choice value="men_shoes"/>
+            
+              <Choice value="tag"/>
+              <Choice value="other"/>
+            </Choices>
+        </View>
+    </View>
+    
+    
+    
+    
+    #**************************Feature [Multi-Option]*****************************
+    
+    <View style="display: flex;" visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+      <View style="flex: 70%">
+        <Image name="image0" value="$data" zoom="true" zoomControl="true" rotateControl="true"/>
+      </View>
+      <View style="flex: 30%">
+        <Choices name="feature" toName="image" showInLine="true" required="true" choice="multiple">
+          <View style="width:100%">
+            <Header name="heading-feature" value="Select Feature [Multiple-Options]"/>
+          </View>
+          
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="adjustable"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="adjustable_strap"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="ankle_strap"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="arch_support"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="breathable"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="cap_toe"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="comfort"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="cushioned"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="insulated"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="lightweight"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="memory_foam"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="moisture_wicking"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="motion_control"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="non_slip/slip_resistant"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="orthopedic"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="padded"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="performance"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="reflective"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="spikes"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="straps"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="stretch"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="toning"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="vegan"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="water_resistant"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="waterproof"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="wingtip"/>
+          </View>
+       
+          
+          <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+            <Choice value="Not-Applicable/Visible"/>
+          </View>
+        </Choices>
+      </View>
+    </View>
+    
+    
+    
+    
+    #**************************                                          Pattern [Single-Option]*****************************
+    
+    <View style="display: flex;" visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+      <View style="flex: 70%">
+        <Image name="image1" value="$data" zoom="true" zoomControl="true" rotateControl="true"/>
+      </View>
+      <View style="flex: 30%">
+        <Choices name="pattern" toName="image" showInLine="true" required="true" choice="single-radio">
+          <View style="width:100%">
+            <Header name="heading-pattern" value="Select Pattern [Single-Option]"/>
+          </View>
+          
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="animal_print"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="argyle/diamond"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="batik"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="camouflage"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="check/gingham"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="chevron"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="colorblock"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="fair_isle"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="flecked"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="floral"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="geometric"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="herringbone"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="houndstooth"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="ikat"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="ombré"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="paisley"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="patchwork"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="pinstripe"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="plaid"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="polka_dot"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="solid"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="spotted"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="striped"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="tie_dye"/>
+          </View>
+       
+          
+          <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+            <Choice value="Not-Applicable/Visible"/>
+          </View>
+        </Choices>
+      </View>
+    </View>
+    
+    
+    
+    
+    #**************************Cleat Type [Single-Option]*****************************
+    
+    <View style="display: flex;" visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+      <View style="flex: 70%">
+        <Image name="image2" value="$data" zoom="true" zoomControl="true" rotateControl="true"/>
+      </View>
+      <View style="flex: 30%">
+        <Choices name="cleat_type" toName="image" showInLine="true" required="true" choice="single-radio">
+          <View style="width:100%">
+            <Header name="heading-cleat_type" value="Select Cleat Type [Single-Option]"/>
+          </View>
+          
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="metal"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="plastic"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="rubber"/>
+          </View>
+       
+          
+          <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+            <Choice value="Not-Applicable/Visible"/>
+          </View>
+        </Choices>
+      </View>
+    </View>
+    
+    
+    
+    
+    #**************************Shoe Shaft Style [Single-Option]*****************************
+    
+    <View style="display: flex;" visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+      <View style="flex: 70%">
+        <Image name="image3" value="$data" zoom="true" zoomControl="true" rotateControl="true"/>
+      </View>
+      <View style="flex: 30%">
+        <Choices name="shoe_shaft_style" toName="image" showInLine="true" required="true" choice="single-radio">
+          <View style="width:100%">
+            <Header name="heading-shoe_shaft_style" value="Select Shoe Shaft Style [Single-Option]"/>
+          </View>
+          
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="high_top"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="low_top"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="mid_top"/>
+          </View>
+       
+          
+          <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+            <Choice value="Not-Applicable/Visible"/>
+          </View>
+        </Choices>
+      </View>
+    </View>
+    
+    
+    
+    
+    #**************************Upper Material [Single-Option]*****************************
+    
+    <View style="display: flex;" visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+      <View style="flex: 70%">
+        <Image name="image4" value="$data" zoom="true" zoomControl="true" rotateControl="true"/>
+      </View>
+      <View style="flex: 30%">
+        <Choices name="upper_material" toName="image" showInLine="true" required="true" choice="single-radio">
+          <View style="width:100%">
+            <Header name="heading-upper_material" value="Select Upper Material [Single-Option]"/>
+          </View>
+          
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="camel"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="cashmere"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="cork"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="cotton_blend"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="cotton"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="fabric"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="faux_fur"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="faux_leather"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="faux_suede"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="fur"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="leather"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="linen"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="mesh"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="nubuck"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="nylon"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="patent_leather"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="plastic"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="polyester"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="polyurethane"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="pvc"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="rubber"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="spandex"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="suede"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="synthetic"/>
+          </View>
+       
+    <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="wool"/>
+          </View>
+       
+          
+          <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+            <Choice value="Not-Applicable/Visible"/>
+          </View>
+        </Choices>
+      </View>
+    </View>
+    
+    
+    </View>'

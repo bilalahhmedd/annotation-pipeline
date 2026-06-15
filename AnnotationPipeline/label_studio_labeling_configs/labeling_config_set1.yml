@@ -1,0 +1,178 @@
+title: Men Shoes Set1 Annotation
+type: custom
+group: Computer Vision
+image: /static/templates/image-classification.png
+details: <h1>Men Shoes Attributes</h1>
+config: '<View>
+<Header value="Men Shoes Attributes Set 1"/>
+    #**********************Department**************************
+    <View style="display: flex;"> 
+        <View style="flex: 70%">
+          <Image name="image" value="$data" zoom="true" zoomControl="true" rotateControl="true"/>
+        </View>
+        <View style="flex: 30%">
+            <Header name="heading-department" value="Department [Single-Option]"/>
+            <Choices name="department" toName="image" showInLine="true" required="true" choice="single-radio">
+              <Choice value="men_shoes"/>
+              <Choice value="tag"/>
+              <Choice value="other"/>
+            </Choices>
+        </View>
+    </View>
+    
+    
+    
+    
+    #**************************Closure [Multi-Option]*****************************
+    
+    <View style="display: flex;" visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+      <View style="flex: 70%">
+        <Image name="image0" value="$data" zoom="true" zoomControl="true" rotateControl="true"/>
+      </View>
+      <View style="flex: 30%">
+        <Choices name="closure" toName="image" showInLine="true" required="true" choice="multiple">
+          <View style="width:100%">
+            <Header name="heading-closure" value="Select Closure [Multiple-Options]"/>
+          </View>
+          <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="buckle"/>
+            
+            <Choice value="button"/>
+            
+            <Choice value="drawstring"/>
+            
+            <Choice value="hook_and_eye"/>
+            
+            <Choice value="hook_and_loop"/>
+            
+            <Choice value="lace_up/tie"/>
+            
+            <Choice value="magnetic"/>
+            
+            <Choice value="pull_on"/>
+            
+            <Choice value="slip_on"/>
+            
+            <Choice value="snap"/>
+            
+            <Choice value="zip"/>
+            
+            <Choice value="Not-Applicable/Visible"/>
+          </View>
+        </Choices>
+      </View>
+    </View>
+    
+    
+    
+    
+    #**************************Type [Single-Option]*****************************
+    
+    <View style="display: flex;" visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+      <View style="flex: 70%">
+        <Image name="image1" value="$data" zoom="true" zoomControl="true" rotateControl="true"/>
+      </View>
+      <View style="flex: 30%">
+        <Choices name="type" toName="image" showInLine="true" required="true" choice="single-radio">
+          <View style="width:100%">
+            <Header name="heading-type" value="Select Type [Single-Option]"/>
+          </View>
+          <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="athletic"/>
+            
+            <Choice value="boot"/>
+            
+            <Choice value="casual"/>
+            
+            <Choice value="dress"/>
+            
+            <Choice value="sandal"/>
+            
+            <Choice value="slipper"/>
+            
+            <Choice value="flip_flop"/>
+            
+            <Choice value="Not-Applicable/Visible"/>
+          </View>
+        </Choices>
+      </View>
+    </View>
+    
+    
+    
+    
+    #**************************Style [Single-Option]*****************************
+    
+    <View style="display: flex;" visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+      <View style="flex: 70%">
+        <Image name="image2" value="$data" zoom="true" zoomControl="true" rotateControl="true"/>
+      </View>
+      <View style="flex: 30%">
+        <Choices name="style" toName="image" showInLine="true" required="true" choice="single-radio">
+          <View style="width:100%">
+            <Header name="heading-style" value="Select Style [Single-Option]"/>
+          </View>
+          <View visibleWhen="choice-selected" whenTagName="department" whenChoiceValue="men_shoes">
+          
+            <Choice value="biker"/>
+            
+            <Choice value="boat_shoe"/>
+            
+            <Choice value="bootie"/>
+            
+            <Choice value="brogue"/>
+            
+            <Choice value="chelsea"/>
+            
+            <Choice value="chukka/desert"/>
+            
+            <Choice value="clog"/>
+            
+            <Choice value="combat"/>
+            
+            <Choice value="derby"/>
+            
+            <Choice value="espadrille"/>
+            
+            <Choice value="fisherman"/>
+            
+            <Choice value="flat"/>
+            
+            <Choice value="loafer"/>
+            
+            <Choice value="moccasin"/>
+            
+            <Choice value="monk_strap"/>
+            
+            <Choice value="mule"/>
+            
+            <Choice value="oxford"/>
+            
+            <Choice value="platform"/>
+            
+            <Choice value="rain_boot"/>
+            
+            <Choice value="slide"/>
+            
+            <Choice value="slip_on"/>
+            
+            <Choice value="sneaker"/>
+            
+            <Choice value="snow_boot"/>
+            
+            <Choice value="sock"/>
+            
+            <Choice value="thong"/>
+            
+            <Choice value="western"/>
+            
+            <Choice value="Not-Applicable/Visible"/>
+          </View>
+        </Choices>
+      </View>
+    </View>
+    
+    
+    </View>'
