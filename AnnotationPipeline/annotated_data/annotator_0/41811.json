@@ -1,0 +1,86 @@
+{
+  "id": 41811,
+  "created_username": " research.ankit12345@gmail.com, 48",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 48,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.ankit12345@gmail.com"
+  },
+  "task": {
+    "id": 3529,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_hoodies_350_Features--all_seasons_men_hoodies--hoodies_Features--all_seasons_men_hoodies--local--Images--324671133273--5.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:54:05.290940Z",
+    "updated_at": "2021-12-13T08:54:05.290995Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 2,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "hoodie"
+        ]
+      },
+      "id": "fUnWGkUWvl",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Regular/Mid-length"
+        ]
+      },
+      "id": "xX4ASvxRAg",
+      "from_name": "hoodie-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Long sleeve"
+        ]
+      },
+      "id": "6G7LSTH-4k",
+      "from_name": "hoodie-sleeve-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Solid"
+        ]
+      },
+      "id": "ASgFGOyAs7",
+      "from_name": "hoodie-pattern",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Windbreaker"
+        ]
+      },
+      "id": "8PJjhK8ueC",
+      "from_name": "hoodie-style",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-17T06:00:15.931726Z",
+  "updated_at": "2021-12-17T06:00:15.931772Z",
+  "lead_time": 35.498
+}

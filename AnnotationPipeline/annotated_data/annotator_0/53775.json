@@ -1,0 +1,42 @@
+{
+  "id": 53775,
+  "created_username": " research.ankit12345@gmail.com, 48",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 48,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.ankit12345@gmail.com"
+  },
+  "task": {
+    "id": 3845,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/0449404def3a202ee7dd.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:54:10.175490Z",
+    "updated_at": "2021-12-13T08:54:10.175534Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 2,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "other"
+        ]
+      },
+      "id": "FLcZSRH5-9",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-17T11:15:41.914967Z",
+  "updated_at": "2021-12-17T11:15:41.915014Z",
+  "lead_time": 5.956
+}

@@ -1,0 +1,42 @@
+{
+  "id": 17575,
+  "created_username": " research.kamlesh1234@gmail.com, 19",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 19,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.kamlesh1234@gmail.com"
+  },
+  "task": {
+    "id": 6103,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_hoodies_350_Features--fluorescent_men_hoodies--hoodies_Features--fluorescent_men_hoodies--local--Images--114963328560--4.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:55:53.141680Z",
+    "updated_at": "2021-12-13T08:55:53.141738Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 3,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "other"
+        ]
+      },
+      "id": "cb1wEt0Agb",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-15T09:07:06.018667Z",
+  "updated_at": "2021-12-15T09:07:06.018714Z",
+  "lead_time": 66.893
+}

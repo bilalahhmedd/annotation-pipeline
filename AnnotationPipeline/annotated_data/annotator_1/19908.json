@@ -1,0 +1,86 @@
+{
+  "id": 19908,
+  "created_username": " research.kamlesh1234@gmail.com, 19",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 19,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.kamlesh1234@gmail.com"
+  },
+  "task": {
+    "id": 6177,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_hoodies_350_Performance-Activity--dance_men_hoodies--hoodies_Performance-Activity--dance_men_hoodies--local--Images--304171816992--2.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:55:54.201957Z",
+    "updated_at": "2021-12-13T08:55:54.201996Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 3,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "hoodie"
+        ]
+      },
+      "id": "eKPn9Pln4q",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Regular/Mid-length"
+        ]
+      },
+      "id": "6gNUaTJGtL",
+      "from_name": "hoodie-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Long sleeve"
+        ]
+      },
+      "id": "Ulh6gFdvpI",
+      "from_name": "hoodie-sleeve-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Solid"
+        ]
+      },
+      "id": "SB-uwoZG7f",
+      "from_name": "hoodie-pattern",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Not-Applicable/Visible"
+        ]
+      },
+      "id": "Bzoap6sm-u",
+      "from_name": "hoodie-style",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-15T11:01:57.311313Z",
+  "updated_at": "2021-12-15T11:01:57.311359Z",
+  "lead_time": 61.532
+}

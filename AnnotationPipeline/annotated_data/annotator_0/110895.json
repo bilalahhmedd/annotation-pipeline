@@ -1,0 +1,86 @@
+{
+  "id": 110895,
+  "created_username": " research.ankit12345@gmail.com, 48",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 48,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.ankit12345@gmail.com"
+  },
+  "task": {
+    "id": 5465,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_hoodies_350_Knit-Style--chunky-knit_men_hoodies--hoodies_Knit-Style--chunky-knit_men_hoodies--local--Images--284099065359--2.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:54:33.620337Z",
+    "updated_at": "2021-12-13T08:54:33.620393Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 2,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "hoodie"
+        ]
+      },
+      "id": "3Ws5SHcSoQ",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Regular/Mid-length"
+        ]
+      },
+      "id": "JPTxDbjTIN",
+      "from_name": "hoodie-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Long sleeve"
+        ]
+      },
+      "id": "_QbXjdHDS2",
+      "from_name": "hoodie-sleeve-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Graphic Print"
+        ]
+      },
+      "id": "PFXL4FQ_ha",
+      "from_name": "hoodie-pattern",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Not-Applicable/Visible"
+        ]
+      },
+      "id": "-OnN2nevlb",
+      "from_name": "hoodie-style",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-20T12:22:05.925877Z",
+  "updated_at": "2021-12-20T12:22:05.925925Z",
+  "lead_time": 23.332
+}

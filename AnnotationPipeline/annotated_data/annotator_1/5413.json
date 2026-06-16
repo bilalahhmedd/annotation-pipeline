@@ -1,0 +1,86 @@
+{
+  "id": 5413,
+  "created_username": " research.kamlesh1234@gmail.com, 19",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 19,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.kamlesh1234@gmail.com"
+  },
+  "task": {
+    "id": 5796,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_hoodies_350_Accents--rhinestone_men_hoodies--hoodies_Accents--rhinestone_men_hoodies--local--Images--115064813817--0.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:55:48.606769Z",
+    "updated_at": "2021-12-13T08:55:48.606826Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 3,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "hoodie"
+        ]
+      },
+      "id": "_pZUo3Y4fJ",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Regular/Mid-length"
+        ]
+      },
+      "id": "ZQsARZfFk6",
+      "from_name": "hoodie-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Long sleeve"
+        ]
+      },
+      "id": "oSba3jpNiE",
+      "from_name": "hoodie-sleeve-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Striped/Pinstripe"
+        ]
+      },
+      "id": "x6IJTcXfCQ",
+      "from_name": "hoodie-pattern",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Not-Applicable/Visible"
+        ]
+      },
+      "id": "TYJhJpsgrd",
+      "from_name": "hoodie-style",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-14T10:22:12.869844Z",
+  "updated_at": "2021-12-14T10:22:12.869885Z",
+  "lead_time": 19.925
+}

@@ -1,0 +1,86 @@
+{
+  "id": 31041,
+  "created_username": " research.kamlesh1234@gmail.com, 19",
+  "created_ago": "4\u00a0days, 21\u00a0hours",
+  "completed_by": {
+    "id": 19,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.kamlesh1234@gmail.com"
+  },
+  "task": {
+    "id": 6560,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_hoodies_350_Features--contrasting_trim_men_hoodies--hoodies_Features--contrasting_trim_men_hoodies--local--Images--274765966430--1.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:55:59.564691Z",
+    "updated_at": "2021-12-21T07:15:21.220804Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 3,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "hoodie"
+        ]
+      },
+      "id": "aRtuq8FNnE",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Regular/Mid-length"
+        ]
+      },
+      "id": "s6liEK1jMy",
+      "from_name": "hoodie-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Short sleeve"
+        ]
+      },
+      "id": "gR3m6hExTh",
+      "from_name": "hoodie-sleeve-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Solid"
+        ]
+      },
+      "id": "2wte3irpju",
+      "from_name": "hoodie-pattern",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Henley/Pullover"
+        ]
+      },
+      "id": "l7yI5nHKRI",
+      "from_name": "hoodie-style",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-16T09:15:58.861412Z",
+  "updated_at": "2021-12-21T07:15:21.271183Z",
+  "lead_time": 10615.955
+}

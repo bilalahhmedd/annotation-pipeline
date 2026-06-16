@@ -1,0 +1,86 @@
+{
+  "id": 5862,
+  "created_username": " research.kamlesh1234@gmail.com, 19",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 19,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.kamlesh1234@gmail.com"
+  },
+  "task": {
+    "id": 5818,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_jackets_350_Performance-Activity--fishing_men_jackets--jackets_Performance-Activity--fishing_men_jackets--local--Images--393611512773--6.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:55:48.930295Z",
+    "updated_at": "2021-12-13T08:55:48.930348Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 3,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "hoodie"
+        ]
+      },
+      "id": "oR8NLHZQLi",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Regular/Mid-length"
+        ]
+      },
+      "id": "4fNqg_oxqP",
+      "from_name": "hoodie-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Long sleeve"
+        ]
+      },
+      "id": "tOv4FXhhxt",
+      "from_name": "hoodie-sleeve-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Not-Applicable/Visible"
+        ]
+      },
+      "id": "iWr9QXSVcm",
+      "from_name": "hoodie-pattern",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Not-Applicable/Visible"
+        ]
+      },
+      "id": "dfOqV3WqQk",
+      "from_name": "hoodie-style",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-14T10:46:49.128962Z",
+  "updated_at": "2021-12-14T10:46:49.128997Z",
+  "lead_time": 146.616
+}

@@ -1,0 +1,86 @@
+{
+  "id": 105652,
+  "created_username": " research.ankit12345@gmail.com, 48",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 48,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.ankit12345@gmail.com"
+  },
+  "task": {
+    "id": 5284,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_jackets_350_Look--eveningwear_men_jackets--jackets_Look--eveningwear_men_jackets--local--Images--334012246438--2.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:54:30.845585Z",
+    "updated_at": "2021-12-13T08:54:30.845639Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 2,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "jacket"
+        ]
+      },
+      "id": "6A_B-Hmk4N",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Long"
+        ]
+      },
+      "id": "xhbVn-LLuC",
+      "from_name": "jacket-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Long sleeve"
+        ]
+      },
+      "id": "16W_MW9m4W",
+      "from_name": "jacket-sleeve-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Solid"
+        ]
+      },
+      "id": "w2rVHK-pEs",
+      "from_name": "jacket-pattern",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Robe"
+        ]
+      },
+      "id": "77elVwFv5m",
+      "from_name": "jacket-style",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-20T10:45:51.299561Z",
+  "updated_at": "2021-12-20T10:45:51.299624Z",
+  "lead_time": 20.528
+}

@@ -1,0 +1,42 @@
+{
+  "id": 88583,
+  "created_username": " research.ankit12345@gmail.com, 48",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 48,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.ankit12345@gmail.com"
+  },
+  "task": {
+    "id": 4652,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_hoodies_350_Pattern--tie_dye_men_hoodies--hoodies_Pattern--tie_dye_men_hoodies--local--Images--384379115720--2.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:54:21.596672Z",
+    "updated_at": "2021-12-13T08:54:21.596736Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 2,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "other"
+        ]
+      },
+      "id": "M4XJc7Kuoj",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-20T04:48:29.794846Z",
+  "updated_at": "2021-12-20T04:48:29.794896Z",
+  "lead_time": 6.394
+}

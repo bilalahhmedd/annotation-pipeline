@@ -1,0 +1,86 @@
+{
+  "id": 64946,
+  "created_username": " research.kamlesh1234@gmail.com, 19",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 19,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.kamlesh1234@gmail.com"
+  },
+  "task": {
+    "id": 7867,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_hoodies_350_Style--four_button_men_hoodies--hoodies_Style--four_button_men_hoodies--local--Images--115044413616--1.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:56:19.665137Z",
+    "updated_at": "2021-12-13T08:56:19.665201Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 3,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "jacket"
+        ]
+      },
+      "id": "YCiqZXlVoa",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Regular/Mid-length"
+        ]
+      },
+      "id": "5k8DWPfAQ7",
+      "from_name": "jacket-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Sleeveless"
+        ]
+      },
+      "id": "8hQumqChRJ",
+      "from_name": "jacket-sleeve-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Solid"
+        ]
+      },
+      "id": "bjy49Upv4T",
+      "from_name": "jacket-pattern",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Vest"
+        ]
+      },
+      "id": "FIlb6OUEa_",
+      "from_name": "jacket-style",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-18T06:04:27.587019Z",
+  "updated_at": "2021-12-18T06:04:27.587069Z",
+  "lead_time": 22.459
+}

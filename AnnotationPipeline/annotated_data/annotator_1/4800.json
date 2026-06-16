@@ -1,0 +1,86 @@
+{
+  "id": 4800,
+  "created_username": " research.kamlesh1234@gmail.com, 19",
+  "created_ago": "6\u00a0days, 20\u00a0hours",
+  "completed_by": {
+    "id": 19,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.kamlesh1234@gmail.com"
+  },
+  "task": {
+    "id": 5771,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_hoodies_350_Accents--bow_men_hoodies--hoodies_Accents--bow_men_hoodies--local--Images--254918137652--1.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:55:48.235080Z",
+    "updated_at": "2021-12-21T06:31:18.678933Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 3,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "hoodie"
+        ]
+      },
+      "id": "35McL7E24a",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Regular/Mid-length"
+        ]
+      },
+      "id": "j589Ae8lKu",
+      "from_name": "hoodie-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Long sleeve"
+        ]
+      },
+      "id": "XrhGV8cWSN",
+      "from_name": "hoodie-sleeve-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Graphic Print"
+        ]
+      },
+      "id": "KnhhS7tKE5",
+      "from_name": "hoodie-pattern",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Henley/Pullover"
+        ]
+      },
+      "id": "sbhvjU_8ix",
+      "from_name": "hoodie-style",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-14T09:44:03.646322Z",
+  "updated_at": "2021-12-21T06:31:18.742934Z",
+  "lead_time": 7973.373
+}

@@ -1,0 +1,86 @@
+{
+  "id": 53366,
+  "created_username": " research.kamlesh1234@gmail.com, 19",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 19,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.kamlesh1234@gmail.com"
+  },
+  "task": {
+    "id": 7477,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_jackets_350_Features--temperature_control_men_jackets--jackets_Features--temperature_control_men_jackets--local--Images--124932383858--2.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:56:13.660162Z",
+    "updated_at": "2021-12-13T08:56:13.660216Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 3,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "jacket"
+        ]
+      },
+      "id": "3Bt7jKjxF3",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Regular/Mid-length"
+        ]
+      },
+      "id": "HEL4qM0n1t",
+      "from_name": "jacket-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Long sleeve"
+        ]
+      },
+      "id": "WLbWroxZxz",
+      "from_name": "jacket-sleeve-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Striped/Pinstripe"
+        ]
+      },
+      "id": "F4mQWdc5wF",
+      "from_name": "jacket-pattern",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Varsity"
+        ]
+      },
+      "id": "gXeaEg099x",
+      "from_name": "jacket-style",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-17T11:08:00.266617Z",
+  "updated_at": "2021-12-17T11:08:00.266655Z",
+  "lead_time": 21.117
+}

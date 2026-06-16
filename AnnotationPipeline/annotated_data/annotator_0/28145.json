@@ -1,0 +1,86 @@
+{
+  "id": 28145,
+  "created_username": " research.ankit12345@gmail.com, 48",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 48,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.ankit12345@gmail.com"
+  },
+  "task": {
+    "id": 2984,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_jackets_350_Collar-Style--band_men_jackets--jackets_Collar-Style--band_men_jackets--local--Images--165148235474--1.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:53:57.648060Z",
+    "updated_at": "2021-12-13T08:53:57.648105Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 2,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "jacket"
+        ]
+      },
+      "id": "yf4zuQB2Dx",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Regular/Mid-length"
+        ]
+      },
+      "id": "FNWzTaX0OK",
+      "from_name": "jacket-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Long sleeve"
+        ]
+      },
+      "id": "oHqlJs82Sn",
+      "from_name": "jacket-sleeve-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Striped/Pinstripe"
+        ]
+      },
+      "id": "hz8sm0I5cx",
+      "from_name": "jacket-pattern",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Not-Applicable/Visible"
+        ]
+      },
+      "id": "E35ztTt5xb",
+      "from_name": "jacket-style",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-16T07:15:55.410338Z",
+  "updated_at": "2021-12-16T07:15:55.410388Z",
+  "lead_time": 27.528
+}

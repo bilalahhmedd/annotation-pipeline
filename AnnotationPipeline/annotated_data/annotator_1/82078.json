@@ -1,0 +1,86 @@
+{
+  "id": 82078,
+  "created_username": " research.kamlesh1234@gmail.com, 19",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 19,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.kamlesh1234@gmail.com"
+  },
+  "task": {
+    "id": 8320,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_jackets_350_Theme--festival_men_jackets--jackets_Theme--festival_men_jackets--local--Images--313720428499--13.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:56:27.433994Z",
+    "updated_at": "2021-12-13T08:56:27.434051Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 3,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "hoodie"
+        ]
+      },
+      "id": "7qg-3vbG46",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Regular/Mid-length"
+        ]
+      },
+      "id": "ACHy7SMrrp",
+      "from_name": "hoodie-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Long sleeve"
+        ]
+      },
+      "id": "DYHn3FscmF",
+      "from_name": "hoodie-sleeve-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Camouflage"
+        ]
+      },
+      "id": "68Q9vpZdw4",
+      "from_name": "hoodie-pattern",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Windbreaker"
+        ]
+      },
+      "id": "gXN6NmblCS",
+      "from_name": "hoodie-style",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-18T11:56:17.150657Z",
+  "updated_at": "2021-12-18T11:56:17.150702Z",
+  "lead_time": 53.863
+}

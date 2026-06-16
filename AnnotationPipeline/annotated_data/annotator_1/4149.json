@@ -1,0 +1,86 @@
+{
+  "id": 4149,
+  "created_username": " research.kamlesh1234@gmail.com, 19",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 19,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.kamlesh1234@gmail.com"
+  },
+  "task": {
+    "id": 5760,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_jackets_350_Features--uv_protection_men_jackets--jackets_Features--uv_protection_men_jackets--local--Images--153623090189--1.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:55:48.069060Z",
+    "updated_at": "2021-12-13T08:55:48.069115Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 3,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "hoodie"
+        ]
+      },
+      "id": "IeckJiK4NV",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Not-Applicable/Visible"
+        ]
+      },
+      "id": "BayvsoKSV5",
+      "from_name": "hoodie-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Not-Applicable/Visible"
+        ]
+      },
+      "id": "A6VSudBn14",
+      "from_name": "hoodie-sleeve-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Solid"
+        ]
+      },
+      "id": "aTEh6QwSAI",
+      "from_name": "hoodie-pattern",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Henley/Pullover"
+        ]
+      },
+      "id": "QufBogPeBy",
+      "from_name": "hoodie-style",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-14T09:08:38.608567Z",
+  "updated_at": "2021-12-14T09:08:38.608626Z",
+  "lead_time": 28.935
+}

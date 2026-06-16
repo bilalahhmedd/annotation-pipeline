@@ -1,0 +1,42 @@
+{
+  "id": 53281,
+  "created_username": " research.kamlesh1234@gmail.com, 19",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 19,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.kamlesh1234@gmail.com"
+  },
+  "task": {
+    "id": 7474,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_jackets_350_Theme--anime_men_jackets--jackets_Theme--anime_men_jackets--local--Images--184335804645--6.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:56:13.617142Z",
+    "updated_at": "2021-12-13T08:56:13.617187Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 3,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "other"
+        ]
+      },
+      "id": "rytEJ8VpPC",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-17T11:06:47.676016Z",
+  "updated_at": "2021-12-17T11:06:47.676062Z",
+  "lead_time": 7.656
+}

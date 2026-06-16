@@ -1,0 +1,86 @@
+{
+  "id": 89002,
+  "created_username": " research.kamlesh1234@gmail.com, 19",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 19,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.kamlesh1234@gmail.com"
+  },
+  "task": {
+    "id": 8535,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_jackets_350_Performance-Activity--military_men_jackets--jackets_Performance-Activity--military_men_jackets--local--Images--203641427790--0.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:56:30.885410Z",
+    "updated_at": "2021-12-13T08:56:30.885470Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 3,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "jacket"
+        ]
+      },
+      "id": "otD0G59MN-",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Not-Applicable/Visible"
+        ]
+      },
+      "id": "Z03k1wqQlx",
+      "from_name": "jacket-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Long sleeve"
+        ]
+      },
+      "id": "FI2VeenzSz",
+      "from_name": "jacket-sleeve-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Solid"
+        ]
+      },
+      "id": "5L7XEP3Kpx",
+      "from_name": "jacket-pattern",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Double Breasted"
+        ]
+      },
+      "id": "WYCs-N9MHh",
+      "from_name": "jacket-style",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-20T04:57:45.019288Z",
+  "updated_at": "2021-12-20T04:57:45.019343Z",
+  "lead_time": 35.889
+}

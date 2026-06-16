@@ -1,0 +1,86 @@
+{
+  "id": 37594,
+  "created_username": " research.kamlesh1234@gmail.com, 19",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 19,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.kamlesh1234@gmail.com"
+  },
+  "task": {
+    "id": 6911,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_jackets_350_Look--trench_coat_men_jackets--jackets_Look--trench_coat_men_jackets--local--Images--274925469518--5.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:56:04.685524Z",
+    "updated_at": "2021-12-13T08:56:04.685564Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 3,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "jacket"
+        ]
+      },
+      "id": "YtWDMJ6L9_",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Regular/Mid-length"
+        ]
+      },
+      "id": "Fj-7lrFqTR",
+      "from_name": "jacket-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Not-Applicable/Visible"
+        ]
+      },
+      "id": "alH4f8kp89",
+      "from_name": "jacket-sleeve-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Not-Applicable/Visible"
+        ]
+      },
+      "id": "d8t1ipkR0X",
+      "from_name": "jacket-pattern",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Double Breasted"
+        ]
+      },
+      "id": "FpJbPWwxpV",
+      "from_name": "jacket-style",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-16T13:04:25.790646Z",
+  "updated_at": "2021-12-16T13:04:25.790696Z",
+  "lead_time": 19.853
+}

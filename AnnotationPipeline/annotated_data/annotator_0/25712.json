@@ -1,0 +1,86 @@
+{
+  "id": 25712,
+  "created_username": " research.ankit12345@gmail.com, 48",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 48,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.ankit12345@gmail.com"
+  },
+  "task": {
+    "id": 2883,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_jackets_350_Style--kimono_men_jackets--jackets_Style--kimono_men_jackets--local--Images--194252516770--1.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:53:56.337337Z",
+    "updated_at": "2021-12-13T08:53:56.337379Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 2,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "jacket"
+        ]
+      },
+      "id": "zwdAdSQgu9",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "3/4 sleeve"
+        ]
+      },
+      "id": "u0XYmExPtJ",
+      "from_name": "jacket-sleeve-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Regular/Mid-length"
+        ]
+      },
+      "id": "znGRF8H-Ip",
+      "from_name": "jacket-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Graphic Print"
+        ]
+      },
+      "id": "-LO7fi26fk",
+      "from_name": "jacket-pattern",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Kimono"
+        ]
+      },
+      "id": "4N5mwKAX7D",
+      "from_name": "jacket-style",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-16T05:31:50.961123Z",
+  "updated_at": "2021-12-16T05:31:50.961171Z",
+  "lead_time": 97.627
+}

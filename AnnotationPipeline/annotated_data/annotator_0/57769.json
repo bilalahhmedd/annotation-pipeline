@@ -1,0 +1,86 @@
+{
+  "id": 57769,
+  "created_username": " research.ankit12345@gmail.com, 48",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 48,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.ankit12345@gmail.com"
+  },
+  "task": {
+    "id": 3946,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/J-6JWfHduEpBkaz.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:54:11.705576Z",
+    "updated_at": "2021-12-13T08:54:11.705633Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 2,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "jacket"
+        ]
+      },
+      "id": "mpRE7Ii5Pi",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Regular/Mid-length"
+        ]
+      },
+      "id": "DPb1QtsY-i",
+      "from_name": "jacket-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Long sleeve"
+        ]
+      },
+      "id": "_Wv3lsyYs9",
+      "from_name": "jacket-sleeve-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Striped/Pinstripe"
+        ]
+      },
+      "id": "RyQbe4HvSa",
+      "from_name": "jacket-pattern",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Not-Applicable/Visible"
+        ]
+      },
+      "id": "kf1khMk3t2",
+      "from_name": "jacket-style",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-17T12:33:41.606721Z",
+  "updated_at": "2021-12-17T12:33:41.606771Z",
+  "lead_time": 126.604
+}

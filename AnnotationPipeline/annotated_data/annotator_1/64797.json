@@ -1,0 +1,42 @@
+{
+  "id": 64797,
+  "created_username": " research.kamlesh1234@gmail.com, 19",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 19,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.kamlesh1234@gmail.com"
+  },
+  "task": {
+    "id": 7863,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_hoodies_350_Neckline--v-neck_men_hoodies--hoodies_Neckline--v-neck_men_hoodies--local--Images--265122226148--0.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:56:19.596547Z",
+    "updated_at": "2021-12-13T08:56:19.596602Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 3,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "other"
+        ]
+      },
+      "id": "3N-th00jZk",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-18T06:01:43.426071Z",
+  "updated_at": "2021-12-18T06:01:43.426138Z",
+  "lead_time": 5.0
+}

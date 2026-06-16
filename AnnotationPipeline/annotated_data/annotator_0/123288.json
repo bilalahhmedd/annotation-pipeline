@@ -1,0 +1,86 @@
+{
+  "id": 123288,
+  "created_username": " research.ankit12345@gmail.com, 48",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 48,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.ankit12345@gmail.com"
+  },
+  "task": {
+    "id": 5671,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_jackets_350_Performance-Activity--gym_and_training_men_jackets--jackets_Performance-Activity--gym_and_training_men_jackets--local--Images--273867752346--13.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:54:38.472614Z",
+    "updated_at": "2021-12-13T08:54:38.472670Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 2,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "jacket"
+        ]
+      },
+      "id": "xU7qYXxNtd",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Regular/Mid-length"
+        ]
+      },
+      "id": "R5AwPVE7Rw",
+      "from_name": "jacket-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Long sleeve"
+        ]
+      },
+      "id": "toyFPGgZy4",
+      "from_name": "jacket-sleeve-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Striped/Pinstripe"
+        ]
+      },
+      "id": "fiF6LS2AlZ",
+      "from_name": "jacket-pattern",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Not-Applicable/Visible"
+        ]
+      },
+      "id": "0o3b2cjatV",
+      "from_name": "jacket-style",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-21T05:30:01.068158Z",
+  "updated_at": "2021-12-21T05:30:01.068209Z",
+  "lead_time": 29.301
+}

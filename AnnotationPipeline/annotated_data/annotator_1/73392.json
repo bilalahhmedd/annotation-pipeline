@@ -1,0 +1,86 @@
+{
+  "id": 73392,
+  "created_username": " research.kamlesh1234@gmail.com, 19",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 19,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.kamlesh1234@gmail.com"
+  },
+  "task": {
+    "id": 8114,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_jackets_350_Performance-Activity--baseball_men_jackets--jackets_Performance-Activity--baseball_men_jackets--local--Images--193162572643--7.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:56:23.726144Z",
+    "updated_at": "2021-12-13T08:56:23.726200Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 3,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "jacket"
+        ]
+      },
+      "id": "sLFJFCZfC0",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Regular/Mid-length"
+        ]
+      },
+      "id": "08MKRJsg0D",
+      "from_name": "jacket-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Long sleeve"
+        ]
+      },
+      "id": "tCuFTL7R8e",
+      "from_name": "jacket-sleeve-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Colorblock"
+        ]
+      },
+      "id": "mkErtATaMB",
+      "from_name": "jacket-pattern",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Varsity"
+        ]
+      },
+      "id": "w81wsx5GpY",
+      "from_name": "jacket-style",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-18T09:13:05.765791Z",
+  "updated_at": "2021-12-18T09:13:05.765841Z",
+  "lead_time": 17.205
+}

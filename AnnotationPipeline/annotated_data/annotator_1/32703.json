@@ -1,0 +1,42 @@
+{
+  "id": 32703,
+  "created_username": " research.kamlesh1234@gmail.com, 19",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 19,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.kamlesh1234@gmail.com"
+  },
+  "task": {
+    "id": 6629,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_jackets_350_Features--keyhole_neck_men_jackets--jackets_Features--keyhole_neck_men_jackets--local--Images--313700216788--2.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:56:00.614081Z",
+    "updated_at": "2021-12-13T08:56:00.614141Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 3,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "other"
+        ]
+      },
+      "id": "pdlWTR-njE",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-16T10:15:20.678864Z",
+  "updated_at": "2021-12-16T10:15:20.678911Z",
+  "lead_time": 4.51
+}

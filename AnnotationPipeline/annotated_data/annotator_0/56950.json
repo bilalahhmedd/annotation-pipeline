@@ -1,0 +1,86 @@
+{
+  "id": 56950,
+  "created_username": " research.ankit12345@gmail.com, 48",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 48,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.ankit12345@gmail.com"
+  },
+  "task": {
+    "id": 3927,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/6a4436421de997b01dce.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:54:11.423828Z",
+    "updated_at": "2021-12-13T08:54:11.423882Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 2,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "jacket"
+        ]
+      },
+      "id": "fXxt6TizJw",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Regular/Mid-length"
+        ]
+      },
+      "id": "sbuMKzJGCo",
+      "from_name": "jacket-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Sleeveless"
+        ]
+      },
+      "id": "uHZbCGUhy5",
+      "from_name": "jacket-sleeve-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Solid"
+        ]
+      },
+      "id": "SNblmBj_3N",
+      "from_name": "jacket-pattern",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Vest"
+        ]
+      },
+      "id": "IcdDMjO9Rx",
+      "from_name": "jacket-style",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-17T12:20:39.161401Z",
+  "updated_at": "2021-12-17T12:20:39.161462Z",
+  "lead_time": 21.926
+}

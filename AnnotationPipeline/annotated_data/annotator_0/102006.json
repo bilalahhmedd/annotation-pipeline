@@ -1,0 +1,86 @@
+{
+  "id": 102006,
+  "created_username": " research.ankit12345@gmail.com, 48",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 48,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.ankit12345@gmail.com"
+  },
+  "task": {
+    "id": 5134,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_jackets_350_Performance-Activity--water_sports_men_jackets--jackets_Performance-Activity--water_sports_men_jackets--local--Images--184609894821--11.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:54:28.583018Z",
+    "updated_at": "2021-12-13T08:54:28.583068Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 2,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "hoodie"
+        ]
+      },
+      "id": "9404EsudlI",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Regular/Mid-length"
+        ]
+      },
+      "id": "SsYrws2RRT",
+      "from_name": "hoodie-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Long sleeve"
+        ]
+      },
+      "id": "mWSp0Zkz20",
+      "from_name": "hoodie-sleeve-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Colorblock"
+        ]
+      },
+      "id": "PJ5d561yrd",
+      "from_name": "hoodie-pattern",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Not-Applicable/Visible"
+        ]
+      },
+      "id": "5N__CKjxca",
+      "from_name": "hoodie-style",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-20T09:49:55.363076Z",
+  "updated_at": "2021-12-20T09:49:55.363129Z",
+  "lead_time": 10.556
+}

@@ -1,0 +1,42 @@
+{
+  "id": 85871,
+  "created_username": " research.ankit12345@gmail.com, 48",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 48,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.ankit12345@gmail.com"
+  },
+  "task": {
+    "id": 4587,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_hoodies_350_Features--full_zip_men_hoodies--hoodies_Features--full_zip_men_hoodies--local--Images--224634818730--2.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:54:20.583810Z",
+    "updated_at": "2021-12-13T08:54:20.583868Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 2,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "other"
+        ]
+      },
+      "id": "IOebvFq0kG",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-18T12:58:56.047474Z",
+  "updated_at": "2021-12-18T12:58:56.047530Z",
+  "lead_time": 6.418
+}

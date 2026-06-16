@@ -1,0 +1,86 @@
+{
+  "id": 56308,
+  "created_username": " research.kamlesh1234@gmail.com, 19",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 19,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.kamlesh1234@gmail.com"
+  },
+  "task": {
+    "id": 7591,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_jackets_350_Accents--tasseled_men_jackets--jackets_Accents--tasseled_men_jackets--local--Images--115094398652--2.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:56:15.317123Z",
+    "updated_at": "2021-12-13T08:56:15.317168Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 3,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "jacket"
+        ]
+      },
+      "id": "EUGlzpIGmN",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Regular/Mid-length"
+        ]
+      },
+      "id": "D9fvzGmCVv",
+      "from_name": "jacket-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Long sleeve"
+        ]
+      },
+      "id": "AOicyQrImH",
+      "from_name": "jacket-sleeve-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Argyle/Diamond"
+        ]
+      },
+      "id": "7DuZ9HO5VI",
+      "from_name": "jacket-pattern",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Not-Applicable/Visible"
+        ]
+      },
+      "id": "nJT5JnL7GB",
+      "from_name": "jacket-style",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-17T12:09:55.876923Z",
+  "updated_at": "2021-12-17T12:09:55.876969Z",
+  "lead_time": 18.399
+}

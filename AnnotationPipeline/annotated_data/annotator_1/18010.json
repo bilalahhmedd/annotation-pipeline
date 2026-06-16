@@ -1,0 +1,42 @@
+{
+  "id": 18010,
+  "created_username": " research.kamlesh1234@gmail.com, 19",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 19,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.kamlesh1234@gmail.com"
+  },
+  "task": {
+    "id": 6123,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_jackets_350_Features--easy_care_men_jackets--jackets_Features--easy_care_men_jackets--local--Images--313699772165--2.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:55:53.443701Z",
+    "updated_at": "2021-12-13T08:55:53.443755Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 3,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "other"
+        ]
+      },
+      "id": "3B-VjIJPJ9",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-15T09:28:44.887566Z",
+  "updated_at": "2021-12-15T09:28:44.887614Z",
+  "lead_time": 43.76
+}

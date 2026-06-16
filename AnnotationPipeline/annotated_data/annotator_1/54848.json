@@ -1,0 +1,42 @@
+{
+  "id": 54848,
+  "created_username": " research.kamlesh1234@gmail.com, 19",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 19,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.kamlesh1234@gmail.com"
+  },
+  "task": {
+    "id": 7528,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_hoodies_350_Collar-Style--peter_pan_men_hoodies--hoodies_Collar-Style--peter_pan_men_hoodies--local--Images--274634541678--59.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:56:14.405763Z",
+    "updated_at": "2021-12-13T08:56:14.405805Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 3,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "other"
+        ]
+      },
+      "id": "NOueMSDS3y",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-17T11:38:20.299723Z",
+  "updated_at": "2021-12-17T11:38:20.299791Z",
+  "lead_time": 3.563
+}

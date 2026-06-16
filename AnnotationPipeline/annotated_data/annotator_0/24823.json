@@ -1,0 +1,42 @@
+{
+  "id": 24823,
+  "created_username": " research.ankit12345@gmail.com, 48",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 48,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.ankit12345@gmail.com"
+  },
+  "task": {
+    "id": 2874,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_hoodies_350_Features--keyhole_neck_men_hoodies--hoodies_Features--keyhole_neck_men_hoodies--local--Images--313628985294--14.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:53:56.218156Z",
+    "updated_at": "2021-12-13T08:53:56.218196Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 2,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "other"
+        ]
+      },
+      "id": "YoN-GCd483",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-16T04:48:09.975678Z",
+  "updated_at": "2021-12-16T04:48:09.975726Z",
+  "lead_time": 23.992
+}

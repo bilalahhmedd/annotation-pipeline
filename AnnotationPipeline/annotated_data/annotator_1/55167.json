@@ -1,0 +1,42 @@
+{
+  "id": 55167,
+  "created_username": " research.kamlesh1234@gmail.com, 19",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 19,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.kamlesh1234@gmail.com"
+  },
+  "task": {
+    "id": 7548,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_jackets_350_Material--mesh_men_jackets--jackets_Material--mesh_men_jackets--local--Images--233943863715--3.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:56:14.695116Z",
+    "updated_at": "2021-12-13T08:56:14.695155Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 3,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "other"
+        ]
+      },
+      "id": "5SunlLQtSi",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-17T11:45:55.026126Z",
+  "updated_at": "2021-12-17T11:45:55.026184Z",
+  "lead_time": 5.487
+}

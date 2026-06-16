@@ -1,0 +1,42 @@
+{
+  "id": 36482,
+  "created_username": " research.kamlesh1234@gmail.com, 19",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 19,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.kamlesh1234@gmail.com"
+  },
+  "task": {
+    "id": 6802,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_jackets_350_Features--adjustable_men_jackets--jackets_Features--adjustable_men_jackets--local--Images--114497602903--9.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:56:03.133799Z",
+    "updated_at": "2021-12-13T08:56:03.133840Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 3,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "other"
+        ]
+      },
+      "id": "97EEv-x5TP",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-16T12:28:38.617890Z",
+  "updated_at": "2021-12-16T12:28:38.617935Z",
+  "lead_time": 4.852
+}

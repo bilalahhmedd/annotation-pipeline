@@ -1,0 +1,86 @@
+{
+  "id": 48611,
+  "created_username": " research.kamlesh1234@gmail.com, 19",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 19,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.kamlesh1234@gmail.com"
+  },
+  "task": {
+    "id": 7320,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_jackets_350_Collar-Style--stand-up_men_jackets--jackets_Collar-Style--stand-up_men_jackets--local--Images--284503254494--1.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:56:11.409656Z",
+    "updated_at": "2021-12-13T08:56:11.409695Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 3,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "jacket"
+        ]
+      },
+      "id": "ZcYlKZgRWA",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Regular/Mid-length"
+        ]
+      },
+      "id": "8O_QTIqZWa",
+      "from_name": "jacket-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Long sleeve"
+        ]
+      },
+      "id": "iqCaHKEvAC",
+      "from_name": "jacket-sleeve-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Colorblock"
+        ]
+      },
+      "id": "1Uh02HXMvC",
+      "from_name": "jacket-pattern",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Varsity"
+        ]
+      },
+      "id": "_lM0D3rtR-",
+      "from_name": "jacket-style",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-17T09:29:29.230309Z",
+  "updated_at": "2021-12-17T09:29:29.230371Z",
+  "lead_time": 30.779
+}

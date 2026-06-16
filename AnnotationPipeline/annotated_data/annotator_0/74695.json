@@ -1,0 +1,42 @@
+{
+  "id": 74695,
+  "created_username": " research.ankit12345@gmail.com, 48",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 48,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.ankit12345@gmail.com"
+  },
+  "task": {
+    "id": 4346,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_hoodies_350_Features--built-in_bra_men_hoodies--hoodies_Features--built-in_bra_men_hoodies--local--Images--124687211075--9.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:54:17.307221Z",
+    "updated_at": "2021-12-13T08:54:17.307277Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 2,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "other"
+        ]
+      },
+      "id": "vBoMLPtNuf",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-18T09:36:56.207087Z",
+  "updated_at": "2021-12-18T09:36:56.207140Z",
+  "lead_time": 4.637
+}

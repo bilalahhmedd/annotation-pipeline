@@ -1,0 +1,42 @@
+{
+  "id": 111847,
+  "created_username": " research.ankit12345@gmail.com, 48",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 48,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.ankit12345@gmail.com"
+  },
+  "task": {
+    "id": 5506,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_jackets_350_Features--all_seasons_men_jackets--jackets_Features--all_seasons_men_jackets--local--Images--313699997642--3.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:54:34.316349Z",
+    "updated_at": "2021-12-13T08:54:34.316409Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 2,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "other"
+        ]
+      },
+      "id": "EoT1nWXWHW",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-20T12:40:08.472298Z",
+  "updated_at": "2021-12-20T12:40:08.472347Z",
+  "lead_time": 10.252
+}

@@ -1,0 +1,42 @@
+{
+  "id": 82765,
+  "created_username": " research.kamlesh1234@gmail.com, 19",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 19,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.kamlesh1234@gmail.com"
+  },
+  "task": {
+    "id": 8340,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_jackets_350_Material--flannel_men_jackets--jackets_Material--flannel_men_jackets--local--Images--114937915017--1.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:56:27.767694Z",
+    "updated_at": "2021-12-13T08:56:27.767747Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 3,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "other"
+        ]
+      },
+      "id": "WMhrurHtX7",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-18T12:05:32.031611Z",
+  "updated_at": "2021-12-18T12:05:32.031657Z",
+  "lead_time": 6.618
+}

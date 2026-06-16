@@ -1,0 +1,42 @@
+{
+  "id": 46211,
+  "created_username": " research.ankit12345@gmail.com, 48",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 48,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.ankit12345@gmail.com"
+  },
+  "task": {
+    "id": 3656,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_hoodies_350_Length--long_men_hoodies--hoodies_Length--long_men_hoodies--local--Images--265371901449--5.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:54:07.262103Z",
+    "updated_at": "2021-12-13T08:54:07.262157Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 2,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "other"
+        ]
+      },
+      "id": "VcJmdsJqg-",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-17T08:30:51.905038Z",
+  "updated_at": "2021-12-17T08:30:51.905094Z",
+  "lead_time": 3.777
+}

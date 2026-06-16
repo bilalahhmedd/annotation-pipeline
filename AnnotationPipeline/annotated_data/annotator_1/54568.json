@@ -1,0 +1,42 @@
+{
+  "id": 54568,
+  "created_username": " research.kamlesh1234@gmail.com, 19",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 19,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.kamlesh1234@gmail.com"
+  },
+  "task": {
+    "id": 7508,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_jackets_350_Performance-Activity--typing_men_jackets--jackets_Performance-Activity--typing_men_jackets--local--Images--255157616468--7.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:56:14.119958Z",
+    "updated_at": "2021-12-13T08:56:14.119997Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 3,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "other"
+        ]
+      },
+      "id": "N1nbigjP9c",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-17T11:32:04.222620Z",
+  "updated_at": "2021-12-17T11:32:04.222672Z",
+  "lead_time": 5.477
+}

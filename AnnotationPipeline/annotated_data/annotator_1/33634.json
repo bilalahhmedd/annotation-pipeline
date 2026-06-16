@@ -1,0 +1,42 @@
+{
+  "id": 33634,
+  "created_username": " research.kamlesh1234@gmail.com, 19",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 19,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.kamlesh1234@gmail.com"
+  },
+  "task": {
+    "id": 6672,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_jackets_350_Material--velour_men_jackets--jackets_Material--velour_men_jackets--local--Images--284206495513--5.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:56:01.221182Z",
+    "updated_at": "2021-12-13T08:56:01.221227Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 3,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "other"
+        ]
+      },
+      "id": "a6Xwc8bCcr",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-16T10:49:43.990021Z",
+  "updated_at": "2021-12-16T10:49:43.990054Z",
+  "lead_time": 5.158
+}

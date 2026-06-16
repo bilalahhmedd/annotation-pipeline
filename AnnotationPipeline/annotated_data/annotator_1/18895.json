@@ -1,0 +1,42 @@
+{
+  "id": 18895,
+  "created_username": " research.kamlesh1234@gmail.com, 19",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 19,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.kamlesh1234@gmail.com"
+  },
+  "task": {
+    "id": 6151,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_jackets_350_Neckline--mock_neck_men_jackets--jackets_Neckline--mock_neck_men_jackets--local--Images--165066632396--4.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:55:53.845714Z",
+    "updated_at": "2021-12-13T08:55:53.845756Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 3,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "other"
+        ]
+      },
+      "id": "PZ2c4yUfhk",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-15T10:15:19.298364Z",
+  "updated_at": "2021-12-15T10:15:19.298412Z",
+  "lead_time": 67.616
+}

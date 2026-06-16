@@ -1,0 +1,86 @@
+{
+  "id": 79564,
+  "created_username": " research.kamlesh1234@gmail.com, 19",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 19,
+    "first_name": "",
+    "last_name": "",
+    "email": "research.kamlesh1234@gmail.com"
+  },
+  "task": {
+    "id": 8283,
+    "data": {
+      "data": "/data/local-files/?d=label-studio/data/Images/random_jackets_350_Collar-Style--shawl_men_jackets--jackets_Collar-Style--shawl_men_jackets--local--Images--224643741118--2.jpg"
+    },
+    "meta": {},
+    "created_at": "2021-12-13T08:56:26.764085Z",
+    "updated_at": "2021-12-13T08:56:26.764140Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "project": 3,
+    "file_upload": null
+  },
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "jacket"
+        ]
+      },
+      "id": "hBgshPZFW_",
+      "from_name": "department",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Long"
+        ]
+      },
+      "id": "RR00S6cybj",
+      "from_name": "jacket-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Long sleeve"
+        ]
+      },
+      "id": "6YNpJPspvt",
+      "from_name": "jacket-sleeve-length",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Solid"
+        ]
+      },
+      "id": "JwmiD-0_2t",
+      "from_name": "jacket-pattern",
+      "to_name": "image",
+      "type": "choices"
+    },
+    {
+      "value": {
+        "choices": [
+          "Windbreaker"
+        ]
+      },
+      "id": "mXicxEj4UQ",
+      "from_name": "jacket-style",
+      "to_name": "image",
+      "type": "choices"
+    }
+  ],
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2021-12-18T11:16:35.557138Z",
+  "updated_at": "2021-12-18T11:16:35.557186Z",
+  "lead_time": 34.175
+}
