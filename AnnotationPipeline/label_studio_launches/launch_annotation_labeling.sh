@@ -24,7 +24,7 @@ labeling_config="$SCRIPTDIR/../label_studio_labeling_configs/color_annotation_la
 # port on docker container
 target_port=8080
 # post on host
-host_port=8080
+host_port=8083
 
 # echo $n_annotators
 # echo $annotator_prefix
