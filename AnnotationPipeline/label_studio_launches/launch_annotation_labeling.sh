@@ -1,8 +1,8 @@
 # 
 SCRIPTPATH=`realpath $0`
 SCRIPTDIR=`dirname $SCRIPTPATH`
-n_annotators=50
-n_repetition=5
+n_annotators=5
+n_repetition=3
 annotator_prefix="annotator"
 container_name="label_studio_annotator_container"
 path_to_app="/home/user/color_annotation_app_2"
@@ -24,7 +24,7 @@ labeling_config="$SCRIPTDIR/../label_studio_labeling_configs/color_annotation_la
 # port on docker container
 target_port=8080
 # post on host
-host_port=8083
+host_port=9081
 
 # echo $n_annotators
 # echo $annotator_prefix
@@ -63,7 +63,8 @@ cp -rf "${root_folder_for_annotator_jsons_on_host}/annotator_0" "${root_folder_f
 mkdir "${folder_for_annotation_results}/demo"
 
 
-docker run -d -p $host_port:$target_port -v $images_folder_on_host:$data_folder_on_container/$basename_of_images_folder_on_host -v $server_folder_on_host:$data_folder_on_container -v $root_folder_for_annotator_jsons_on_host:/label-studio/$basename_of_root_folder_for_annotator_jsons_on_host -v $folder_for_annotation_results:$folder_on_container_for_annotation_results --env LOCAL_FILES_SERVING_ENABLED=true --env LOCAL_FILES_DOCUMENT_ROOT=/ --name $container_name heartexlabs/label-studio:latest label-studio
+docker run -d -p $host_port:$target_port -v $images_folder_on_host:$data_folder_on_container/$basename_of_images_folder_on_host -v $server_folder_on_host:$data_folder_on_container -v $root_folder_for_annotator_jsons_on_host:/label-studio/$basename_of_root_folder_for_annotator_jsons_on_host -v $folder_for_annotation_results:$folder_on_container_for_annotation_results --env LOCAL_FILES_SERVING_ENABLED=true --env LOCAL_FILES_DOCUMENT_ROOT=/ --name $container_name heartexlabs/label-studio:1.3.0 label-studio
+
 
 echo 'docker done'
 
