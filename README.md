@@ -11,6 +11,12 @@ This project comprises following stages.
 * orchestration 
 * annotation application deployment
 
+# Dependencies
+
+* docker
+* label-studio:1.3.0
+* python: 3.8.0
+* salenium
 
 # Architecture
 
