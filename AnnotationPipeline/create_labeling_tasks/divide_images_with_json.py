@@ -4,55 +4,6 @@ import json
 import argparse
 from collections import defaultdict
 #====================================
-'''
-def divide_images_with_repetition(images_folder,n_annotators,n_repetition=1,
-    image_extensions =  ['.jpg','.jpeg','.png','.gif','.bmp']):
-    assert n_repetition <= n_annotators, 'number of image repetition should be <= n_annotators'
-    excluded_fnames = []
-    im_fnames = [] 
-    for fname in os.listdir(images_folder):
-        if any([fname.lower().endswith(ext) for ext in image_extensions]):
-            im_fnames.append(fname)
-        else:
-            excluded_fnames.append(fname)
-    im_fnames = sorted(im_fnames)
-    print(f'excluded fnames: {excluded_fnames[:10]}')
-    counters_for_annotators = defaultdict(int)
-    assigned_im_fnames = [[] for _ in range(n_annotators)]
-    for i,im_fname in enumerate(im_fnames):
-        annotators_for_im = np.random.choice(n_annotators,size = n_repetition,replace=False)
-        for ann_i in annotators_for_im:
-            assigned_im_fnames[ann_i].append(im_fname)
-    return assigned_im_fnames
-
-#====================================
-def divide_images(images_folder,n_annotators,
-    image_extensions =  ['.jpg','.jpeg','.png','.gif','.bmp']):
-
-    excluded_fnames = []
-    im_fnames = [] 
-    for fname in os.listdir(images_folder):
-        if any([fname.lower().endswith(ext) for ext in image_extensions]):
-            im_fnames.append(fname)
-        else:
-            excluded_fnames.append(fname)
-    im_fnames = sorted(im_fnames)
-    print(f'excluded fnames: {excluded_fnames[:10]}')
-    n_images = len(im_fnames)
-    images_per_annotator = int(np.ceil(n_images/n_annotators))
-    order = np.arange(n_images)
-    order = np.random.permutation(order)
-    assigned_ixs = []
-    assigned_im_fnames = []
-    for i_ann in range(n_annotators):
-        assigned_ixs = order[i_ann*images_per_annotator:(i_ann+1)*images_per_annotator]
-        # assigned_ixs.append(
-        #   order[i_ann*images_per_annotator:(i_ann+1)*images_per_annotator]
-        #   )
-        assigned_im_fnames.append([im_fnames[i] for i in assigned_ixs])
-        
-    return assigned_im_fnames
-'''
 
 def get_available_fnames(
     images_folder = None,
@@ -67,7 +18,7 @@ def get_available_fnames(
         image_extensions (list, optional): _list of images extensions_. Defaults to [].
 
     Returns:
-        _type_: _description_
+        _list of list_: _image file names, excluded file names_
     """
     if images_folder is not None:
         excluded_fnames = []
@@ -103,13 +54,13 @@ def divide_images_with_repetition(im_fnames,
     """ divide images as per number of annotators and n number of copies of each image
 
     Args:
-        im_fnames (_list_): _description_
-        n_annotators (_any_): _description_
+        im_fnames (_list_): _images file names_
+        n_annotators (_int_): _number of annotators_
         n_repetition (int, optional): _description_. Defaults to 1.
         image_extensions (list, optional): _description_. Defaults to ['.jpg','.jpeg','.png','.gif','.bmp'].
 
     Returns:
-        _type_: image folders created
+        _list_: folder names to contain json files containing metadata for each image to be annotated
     """
     assert n_repetition <= n_annotators, 'number of image repetition should be <= n_annotators'
     excluded_fnames = []
@@ -126,11 +77,11 @@ def divide_images(im_fnames,
     """ divide images are per number of annotators
 
     Args:
-        im_fnames (_any_): image file names
+        im_fnames (_list_): image file names
         n_annotators (_int_): number of annotators
 
     Returns:
-        _type_: _description_
+        _list_: _image file names_
     """
     n_images = len(im_fnames)
     images_per_annotator = int(np.ceil(n_images/n_annotators))
