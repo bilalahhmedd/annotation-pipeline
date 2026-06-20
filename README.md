@@ -39,23 +39,34 @@ Data Format: Json, CSV, Yml, JPG
 
 1. Data Service Layer
    * feed data
-        * create annotation tasks (folder containing json files). \n 
-        * create labeling tasks json files and place those in multiple subfolders as per number of annotators and repetition of each image
+        * create labeling tasks json files
+        * place these task files in multiple subfolders, where each folder serves data to each annotator project in label-studio app
    * consume annotated data
-        * create folders for each annotator project to land annotated data saparately, coming from label-studio app
+        * create folders inside annotation_results folder to land annotated data coming from each annotator project of app saparately.
    * Images 
-        * images reside in one main folder called Images
-        * Images folder reside in server-folder of label-studio app
+        * Single source folder to contain all images for app 
+        * copy these images into Images folder residing in server-folder of label-studio app
         
 
 ****************************************************************************************
 
-*   Label-studio App setup
-    
+2. Label-studio App setup
+
+    * Docker image "heartexlabs/label-studio:1.3.0"
+    * Docker container "label_studio_annotator_container"
+    * integrate data service layer into label-studio interface
     * launch annotation labeling app
     * label studio labeling configs
 
 ****************************************************************************************
+3. Orchestration
+   
+   * launch_annotation_labeling_app.sh
+        * app configuration
+        * create annotation app folder
+        * call python scripts to create data service layer
+        * create server folder inside annotation app folder
+        * docker run command to pull label-studio image, integrate data service layer into label-studio interface
 
 
     
