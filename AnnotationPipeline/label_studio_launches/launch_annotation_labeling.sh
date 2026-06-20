@@ -5,7 +5,7 @@ n_annotators=5
 n_repetition=3
 annotator_prefix="annotator"
 container_name="label_studio_annotator_container"
-path_to_app="/home/user/color_annotation_app_2"
+path_to_app="/home/user/color_annotation_app"
 
 server_folder_on_host=$path_to_app"/server-folder"
 images_folder_on_host="$SCRIPTDIR/../Images"
