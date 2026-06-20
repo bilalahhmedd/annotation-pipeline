@@ -37,11 +37,16 @@ Data Format: Json, CSV, Yml, JPG
 
 # System Components
 
-* Data Service Layer
-   * create labeling task
-        * create folders for annotation
-        * divide images dataset into muliple subfolders
-    * images
+1. Data Service Layer
+   * feed data
+        * create annotation tasks (folder containing json files). \n 
+        * create labeling tasks json files and place those in multiple subfolders as per number of annotators and repetition of each image
+   * consume annotated data
+        * create folders for each annotator project to land annotated data saparately, coming from label-studio app
+   * Images 
+        * images reside in one main folder called Images
+        * Images folder reside in server-folder of label-studio app
+        
 
 ****************************************************************************************
 
