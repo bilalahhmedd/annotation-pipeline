@@ -2,104 +2,27 @@ title: Color Annotation Labeling
 type: custom
 group: Computer Vision
 image: /static/templates/image-classification.png
-details: <h1>label womens shoe attributes</h1>
+details: <h1>label color pallets</h1>
 config: '<View>
   <Image name="image" value="$image" zoom="true" zoomControl="true" rotateControl="true"/>
 
-  <Choices name="features"
-              toName="image"
-              showInLine="true"
-              required="true"
-              choice="multiple">
-      
-      <View style="width:100%">
-        <Header name="heading-features" value="features (Select All Applicable)" />
-      
-      </View>
-      <Choice value="straps"/>
-      <Choice value="cap toe"/>
-      <Choice value="spikes"/>
-      <Choice value="wingtip"/>
-      <Choice value="wheels"/>
-    <Choice value="not applicable/not visible"/>
-    </Choices>
+  <<Choices name="colors"
+                      toName="image"
+                      showInLine="true"
+                      required="true"
+                      choice="single">
 
-  <Choices name="pattern"
-              toName="image"
-              showInLine="true"
-              required="true"
-              visibleWhen="choice-selected"
-              whenTagName="features" choice="single-radio">
-      
-      <View style="width:100%">
-        <Header name="heading-pattern" value="pattern" />
-      
-      </View>    
-    
-      <Choice value = "Animal"/>
-      <Choice value = "batik"/>
-    <Choice value = "camouflage"/>  
-      <Choice value = "chevron"/>
-    <Choice value = "colorblock"/>
-  <Choice value="damask"/>
-      <Choice value = "fair-isle"/>
-  <Choice value = "flecked"/>    
-    <Choice value = "floral"/>
-    <Choice value = "geometric"/>
-    <Choice value = "gingham/checkered"/>
-    <Choice value="Knit"/>
-    <Choice value = "herringbone"/>
-    <Choice value = "houndstooth"/>
-    <Choice value = "ikat"/>
-    <Choice value = "madras"/>
-    <Choice value="Mesh/net"/>
-      <Choice value = "paisley"/>
-      <Choice value = "patchwork"/>
-    <Choice value = "pinstripe/striped"/>  
-    <Choice value = "polkadot/spotted"/>
-    <Choice value = "plaid"/>
-      <Choice value = "solid"/>
-    <Choice value = "tie-dye"/>
-    <Choice value = "woven"/>
-    <Choice value = "ombre"/>
-  <Choice value="not applicable/not visible"/>
-    </Choices>  
-    
-    <Choices name="cleat-type"
-              toName="image"
-              showInLine="true"
-              required="true"
-              visibleWhen="choice-selected"
-              whenTagName="pattern" choice="single-radio">
-      
-      <View style="width:100%">
-        <Header name="heading-cleat-type" value="cleat type" />
-      
-      </View>
-      <Choice value="Plastic Cleats"/>
-      <Choice value="Rubber Cleats"/>
-      <Choice value="Metal Cleats"/>
-  <Choice value="not applicable/not visible"/>    
-    </Choices> 
-    
-    <Choices name="toe-shape"
-              toName="image"
-              showInLine="true"
-              required="true"
-              visibleWhen="choice-selected"
-              whenTagName="cleat-type" choice="single-radio">
-      
-      <View style="width:100%">
-        <Header name="heading-toe-shape" value="toe shape" />
-      
-      </View>    
-    <Choice value = "pointed_toe"/>
-  <Choice value = "round_toe"/>
-  <Choice value = "square_toe"/>
-  <Choice value = "open_toe"/>
-  <Choice value = "peep_toe"/>
-  <Choice value = "closed_toe"/>
-  <Choice value = "almond_toe"/>
-  <Choice value="not applicable/not visible"/>
-    </Choices>  
-  </View>'
+              <View style="width:100%">
+                <Header name="heading-colors" value="color (Select Applicable)" />
+              </View>
+              <Choice value="yellow"/>
+              <Choice value="green"/>
+              <Choice value="blue"/>
+              <Choice value="red"/>
+              <Choice value="white"/>
+              <Choice value="black"/>
+              <Choice value="purple"/>
+              <Choice value="magenta"/>
+            <Choice value="not applicable/not visible"/>
+            </Choices>
+    </View>'
