@@ -1,0 +1,8 @@
+# Python code
+*.py linguist-language=Python
+
+# Bash scripts
+*.sh linguist-language=Shell
+
+# Jupyter notebooks treated as documentation
+*.ipynb linguist-documentation=true
