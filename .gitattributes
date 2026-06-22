@@ -5,4 +5,5 @@
 *.sh linguist-language=Shell
 
 # Jupyter notebooks treated as documentation
-*.ipynb linguist-documentation=true
+# *.ipynb linguist-documentation=true
+*.ipynb linguist-documentation=Jupyter
